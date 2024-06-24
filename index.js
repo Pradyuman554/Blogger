@@ -51,7 +51,6 @@ app.get("/posts/:id", (req,res)=>{
   res.json(post);
 });
 
-
 //CHALLENGE 3: POST a new post
 app.post("/posts", (req,res)=>{
   const newPost = lastId+=1;
